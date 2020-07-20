@@ -1,0 +1,48 @@
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+}
+
+.navbar{
+background-color: antiquewhite;
+padding: 10px;
+
+}
+.navbar-brand {
+  padding: 15px 15px;
+  margin-top: -23px;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+#header-navbar{
+  border: 2px solid black;
+}
+.container{
+  background-color: antiquewhite;
+  margin-left: -2px;
+}
+#main-content{
+  background-color: antiquewhite;
+ width: auto;
+ margin-left: 20px;
+ margin-right: 20px;
+}

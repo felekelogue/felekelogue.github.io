@@ -1,16 +1,13 @@
 body{
   font-family: 'Oxygen', sans-serif;
 }
-.navbar-header{
-  float: left;
-}
-
-.navbar{
-padding-top: 13px;
-border: 2px solid;
-margin-bottom: 12px;
+#header-nav{
+  background-color: antiquewhite;
+  /*border-radius: 0;
+  border: 0;*/
 
 }
+
 .navbar-brand {
   /*margin-top: -18px;*/
   float: left;
@@ -20,23 +17,38 @@ margin-bottom: 12px;
   margin-top: -17px;
   padding-bottom: 20px;
 }
+
+.navbar{
+padding-top: 13px;
+border: 2px solid;
+margin-bottom: 12px;
+
+}
+.navbar-header{
+  float: left;
+}
 h1{
   text-align: center;
 }
 h2{
   text-align: center;
 }
-#header-nav{
-  background-color: antiquewhite;
-  border-radius: 0;
-  border: 0;
-}
-.container > .navbar-brand{
+
+.navbar-brand{
   margin-left: -20px;
   margin-right: auto;
 
 }
-#main-content{
+.navbar-header{
+  float: left;
+  margin-left: -124px;
+  
+}
+#navbar-brand{
+  float: left;
+}
+
+.container{
 background-color: antiquewhite;
  width: auto;
  margin-left: 20px;

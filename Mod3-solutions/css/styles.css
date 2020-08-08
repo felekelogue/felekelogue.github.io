@@ -24,7 +24,6 @@ margin-bottom: 12px;
 
 }
 .navbar-header{
-  float: left;
 }
 h1{
   text-align: center;
@@ -40,7 +39,6 @@ h2{
 
 }
 .navbar-header{
-  float: left;
   margin-left: -124px;
   
 }
@@ -58,7 +56,7 @@ background-color: antiquewhite;
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .navbar-brand{
-    float: left;
+    float: right;
   }
   #nav-list{
     visibility: hidden;
@@ -86,32 +84,41 @@ background-color: antiquewhite;
   #collapse{
     margin-left: 33px;
   }
+  .navbar-brand{
+    padding-top: 10px;
+    /*height: 80px;*/
+  }
+  .navbar-nav{
+    float: right;
+  }
   
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-  ul#nav-list{
+  #nav-list{
     float: right;
-    margin: auto;
 
   }
   .navbar-nav {
   margin-left: auto;
+  padding-right: 39px;
+  float: right;
   }
 
   .collapse{
-    float: right;
+    margin-right: 2px;
   
   }
   #nav-list{
-    float: left;
+    float: right;
     margin-right: 20px;
+    color: #000;
   }
 
 }
 
-#navbar{
+#collapse #navbar-collapse{
   float: right;
 
 
@@ -120,8 +127,15 @@ background-color: antiquewhite;
   background-color: cornsilk;
   text-align: center;
 }
-ul.nav>li{
-  text-align: center;
-}
 
+.navbar-collapse{
+  margin-right: -139px;
+  float: right;
+}
+.hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 1px solid black;
+  
+}
 

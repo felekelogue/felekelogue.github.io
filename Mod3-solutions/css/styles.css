@@ -23,8 +23,7 @@ border: 2px solid;
 margin-bottom: 12px;
 
 }
-.navbar-header{
-}
+
 h1{
   text-align: center;
   text-emphasis: .2em;
@@ -60,6 +59,7 @@ background-color: antiquewhite;
   }
   #nav-list{
     visibility: hidden;
+    display: none;
   }
 }
 
@@ -67,6 +67,7 @@ background-color: antiquewhite;
 @media (min-width: 992px) and (max-width: 1199px) {
   #nav-list{
     visibility: hidden;
+    display: none;
   }
 
   
@@ -80,6 +81,7 @@ background-color: antiquewhite;
   }
   #nav-list{
     visibility: hidden;
+    display: none;
   }
   #collapse{
     margin-left: 33px;
@@ -102,12 +104,12 @@ background-color: antiquewhite;
   }
   .navbar-nav {
   margin-left: auto;
-  padding-right: 39px;
   float: right;
   }
 
   .collapse{
     margin-right: 2px;
+    
   
   }
   #nav-list{
@@ -120,22 +122,21 @@ background-color: antiquewhite;
 
 #collapse #navbar-collapse{
   float: right;
+  display: none;
 
 
 }
 #nav-list a:hover{
   background-color: cornsilk;
-  text-align: center;
 }
 
 .navbar-collapse{
   margin-right: -139px;
-  float: right;
 }
 .hr{
   margin-top: 0px;
   margin-bottom: 0px;
   border: 1px solid black;
-  
+  visibility: hidden-xs;  
 }
 

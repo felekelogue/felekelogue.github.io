@@ -33,7 +33,7 @@ h2{
 }
 
 .navbar-brand{
-  margin-left: -20px;
+  /*margin-left: -20px;*/
   margin-right: auto;
 
 }
@@ -43,6 +43,7 @@ h2{
 }
 #navbar-brand{
   float: left;
+  color: #000;
 }
 
 .container{
@@ -51,6 +52,7 @@ background-color: antiquewhite;
  margin-left: 20px;
  margin-right: 20px;
 }
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -76,7 +78,7 @@ background-color: antiquewhite;
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .collapse{
-    float: right;
+    border: #000;
 
   }
   #nav-list{
@@ -93,19 +95,24 @@ background-color: antiquewhite;
   .navbar-nav{
     float: right;
   }
+  .container-fluid>.navbar-collapse{
+    border: 2px solid;
+    visibility: hidden;
+    
+      
+  }
+ 
   
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-  #nav-list{
-    float: right;
-
+  .container-fluid>.navbar-collapse{
+    border: 2px solid;
+    
+      
   }
-  .navbar-nav {
-  margin-left: auto;
-  float: right;
-  }
+ 
 
   .collapse{
     margin-right: 2px;
@@ -113,10 +120,12 @@ background-color: antiquewhite;
   
   }
   #nav-list{
-    float: right;
-    margin-right: 20px;
+    /*float: right;
+    margin-right: 20px;*/
     color: #000;
+    padding: 3px;
   }
+ 
 
 }
 
@@ -134,9 +143,19 @@ background-color: antiquewhite;
   margin-right: -139px;
 }
 .hr{
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: -3px;
+  margin-bottom: -1px;
   border: 1px solid black;
   visibility: hidden-xs;  
 }
 
+#nav-list a{
+  color: black;
+  text-align: center;
+  
+}
+
+.container>#main-content{
+  margin-left: auto;
+  margin-right: auto;
+}
